@@ -1,0 +1,15 @@
+---
+name: First Flow
+on: [push]
+
+jobs:
+    run-shell-commands:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Echo a string"
+              run: echo "Hello World"
+            - name: Multiline commands
+              run: |
+                node -v
+                npm -v
+                
