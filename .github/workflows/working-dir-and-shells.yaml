@@ -1,5 +1,5 @@
 name: working directoriy and shells
-on [push]
+on: [push]
 jobs:
     display-wd-info-ubuntu:
         runs-on: ubuntu-latest
