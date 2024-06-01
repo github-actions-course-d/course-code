@@ -25,7 +25,7 @@ jobs:
         steps:
             - name: echo a string
               # run: Write-Output "Windows String"
-              run: command_doesnot_exist
+              run: command_doesnot_exist_1
 
 
 
