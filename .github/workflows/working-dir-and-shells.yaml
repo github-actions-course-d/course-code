@@ -10,14 +10,12 @@ jobs:
         steps:
             - name: Display working directory and list files
               run: |
-                pwd
                 echo "$GITHUB_SHA"
                 echo "$GITHUB_REPOSITORY"
                 echo "$GITHUB_WORKSPACE"
 
                 - name: Display working directory and list files
                 run: |
-                  pwd
                   echo "$GITHUB_SHA"
                   echo "$GITHUB_REPOSITORY"
                   echo "$GITHUB_WORKSPACE"
