@@ -15,6 +15,3 @@ jobs:
           git checkout main
       - name: list-files-after
         run: ls -a
-                            
-
-
